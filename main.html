@@ -1,35 +1,54 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Student Details Table</title>
+    <style>
+        table {
+            background-color: yellow;
+            border: 4px solid black;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        caption {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            border: 3px solid black;
+            padding: 10px 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        th {
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-	<h1>Student Details</h1>
-	<table border=1px solid black>
-		<thead>
-			<th>NAME</th>
-			<th>AGE</th>
-			<th>BRANCH</th>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Shaw</td>
-				<td>20</td>
-				<td>CSE</td>
-			</tr>
-			<tr>
-				<td>Adil</td>
-				<td>21</td>
-				<td>ECE</td>
-			</tr>
-		</tbody>
-	</table>
-</body>
 
+    <table>
+        <caption>Student Details</caption>
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>BRANCH</th>
+        </tr>
+        <tr>
+            <td>Shaw</td>
+            <td>20</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Adil</td>
+            <td>21</td>
+            <td>ECE</td>
+        </tr>
+    </table>
+
+</body>
 </html>
