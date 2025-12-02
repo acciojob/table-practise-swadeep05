@@ -2,6 +2,7 @@
 table{
 	boder:1px solid black;
 	background-color:Yellow;
+	color: black;
 }
 tr{
 		font-weight:bold;
